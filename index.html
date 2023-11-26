@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="soil1.css">
+<title>Pollution Awareness</title>
+</head>
+<body>
+<section class="first">
+
+                        <!--LANDING PAGE-->
+
+<!--Resources-->
+<div class="bannerVideo" id="slideshow">
+<video  autoplay muted loop class="active">
+	<source src="video1.mp4" type="video/mp4">
+</video>
+<video src="video1.mp4" autoplay muted loop></video>
+<video src="video1.mp4" autoplay muted loop></video>
+<!--<video src ="video4.mp4" autoplay muted loop></video>-->
+</div>
+
+<!--Navbar-->
+<div class="container">
+<header id="navbar">
+<a href="#" class="logo">Soil Pollution</a>
+<ul>
+<li><a href="#" class="active">Home</a></li>
+<!--<li><a href="#">Newsroom</a></li>
+<li><a href="#">Events</a></li>-->
+<li><a href="#aboutus">About Us</a></li>
+<li><a href="#contactus">Contact Us</a></li>
+<li><a href="#login.html">Log In / Sign Up </a></li>
+</ul>
+<span class="menuIcon" onclick="toggleMenu();"></span>
+</header>
+
+<!--Video Intro-->
+<div class="content">
+<div class="bannerText" id="slideShowText">
+<div class="active">
+<h2>Soil Pollution</h2>
+
+<p>Soil pollution is the presence of toxic chemicals in soil at concentrations that pose a risk to human health and the ecosystem. It's also known as soil contamination.</p>
+<a href="#air" class="readmore">Read More</a>
+
+</div>
+<div>
+<h2>SDG'S Act</h2>
+<p>The Sustainable Development Goals (SDGs) aim to transform our world. They are a call to action to end poverty and inequality, protect the planet, and ensure that all people enjoy health, justice and prosperity. It is critical that no one is left behind.</p>
+<a href="#water" class="readmore">Read More</a>
+</div>
+<div>
+<h2> land Pollution</h2>
+<p>Soil contamination ,soil pollution , or land pollution as a part of land  degradation is caused by the presence of human-made chemicals or other alteration in the natural soil environment. It is typically caused by industrial activity , agricultural chermicals or improper disposal of waste</p>
+<a href="#land" class="readmore">Read More</a>
+</div>
+<!--<div>
+<h2>Sound</h2>
+<p>Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do elumsod tempor incididunt Labore et dolore magna aliqua .Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commado consequat<p>
+</div>-->
+</div>
+</div>
+<!--Sticky Socials-->
+<!--<ul class="sci">
+<li><a href="#"><img src="facebook1.png"></a></li>
+<li><a href="#"><img src="insta.png"></a></li>
+<li><a href="#"><img src="twitter1.png"></a></li>
+</ul>-->
+
+<!--Arrows-->
+<ul class="controls">
+<li oneclick="prevSlide();prevSlideText();"><img src="left.png"></li>
+<li oneclick="prevSlide();prevSlideText();"><img src="right.png"></li>
+</ul>
+</div>
+</section>
+
+<!--Arrow Controls-->
+<script type="text/javascript">
+const slideShow = document.getElementById('slideShow');
+const slides = slideShow.getElementsbyTagName('video');
+var index = 0;
+function nextSlideText(){
+slides[index].classList.remove('active');
+index = (index + 1) % slides.length;
+slides[index].classList.add('active');
+}
+function prevSlideText(){
+slides[index].classList.remove('active');
+index = (index - 1 + slides.length) % slides.length;
+slides[index].classList.add('active');
+}
+	function toggleMenu(){
+		const menuIcon = document.querySelector('.menuIcon');
+		const navbar = document.getElementById('navbar');
+		menuIcon.classList.toggle('active');
+		navbar.classList.toggle('active');
+	}
+</script>
+
+								<!--AIR PAGE-->
+<section class="second">
+	<div class="air">
+		<a name = "air" class="air"><h1>Soil Pollution</h1></a>
+		<p class="desca">Soil pollution, also known as soil contamination, refers to the introduction of harmful substances into the soil environment, leading to the degradation of soil quality and its potential adverse effects on the environment, ecosystems, human health, and agriculture. These harmful substances can include pollutants such as heavy metals, industrial chemicals, pesticides, petroleum products, and hazardous waste materials. Soil pollution can result from various human activities, including industrial processes, agriculture, waste disposal, mining, and improper land management practices. It poses significant environmental and health risks and often requires remediation and prevention efforts to protect soil and ensure its continued usefulness for agriculture and other purposes.</p>
+		<div class="totalair">
+			<div class="prosair">
+				<h3>Causes</h3>
+				<p><ul><li><u>Industrial Activities:</u> Factories and manufacturing processes can release chemicals and pollutants into the soil, such as heavy metals, solvents, and toxic compounds.</li><li> <u>Agricultural Practices:</u> The use of pesticides, herbicides, and fertilizers in agriculture can lead to soil contamination. Improper disposal of agricultural chemicals is also a contributing factor.</li><li> <u>Mining Operations:</u> Mining activities often expose minerals and ores that contain harmful substances, which can seep into the soil and contaminate it.</li><li><u>>Waste Disposal:</u> Improper disposal of solid waste, landfill leakage, and illegal dumping of hazardous materials can introduce pollutants into the soil.</li></ul></p>
+			</div>
+
+			<div class="prosair">
+				<h3>Preventions</h3>
+				<p><li><u>Reduce Chemical Usage:</u> Minimize the use of chemical fertilizers, pesticides, and herbicides in agriculture. Implement organic farming methods and integrated pest management to reduce chemical inputs.</li>
+
+					<li><u>Safe Waste Disposal:</u> roperly dispose of hazardous waste materials, such as industrial chemicals, electronic waste, and pharmaceuticals. Use designated waste disposal facilities and recycling programs.</li>
+					
+					<li><u>Sustainable Land Use:</u> Implement responsible land-use planning and zoning regulations to prevent soil contamination. Avoid locating industrial facilities near residential areas and sensitive ecosystems. </li>
+					
+					<li><u>Clean Energy Sources:</u> Transition to cleaner energy sources to reduce air pollution, which can lead to soil contamination through the deposition of pollutants.</li>
+					</p>
+			</div>
+
+			<div class="prosair">
+				<h3>Acts by various Groups</h3>
+				<p><ul> <li><u>The Soil Association:</u> This organization promotes organic farming and educates farmers and consumers about the importance of avoiding synthetic pesticides, herbicides, and chemical fertilizers to protect soil health.</li>
+
+					<li><u>World Soil Information (ISRIC):</u> ISRIC collects, maintains, and disseminates soil data globally. This information is crucial for monitoring soil quality and identifying areas vulnerable to soil pollution.</li>
+					
+					<li><u>Soil Science Society of America (SSSA):</u> SSSA advances soil science knowledge, which is essential for understanding soil pollution risks and developing effective prevention strategies.</li>
+					<li><u>United Nations Environment Programme (UNEP): </u>UNEP conducts research, raises awareness, and assists countries in developing policies and strategies to combat soil pollution. It works on reducing the use of hazardous chemicals and improving waste management.</li></ul></p>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+								<!--WATER PAGE-->
+<section class="third">
+		<div class="water">
+				<a name = "water" class="water"><h1>SDG'S Act</h1></a>
+				<p class="descw">The Sustainable Development Goals (SDGs), established by the United Nations, include several goals and targets related to sustainable development, environmental protection, and addressing soil pollution indirectly. While there isn't a specific SDG that focuses exclusively on soil pollution, several SDGs and targets are closely related and can help guide actions to mitigate soil pollution. Here are a few relevant SDGs and actions taken to address soil pollution within the context of sustainable development:</p>
+				<div class="totalwater">
+					<div class="proswater">
+						<h3></h3>
+						<p> <ul> <li><u>SDG 2 - Zero Hunger:</u> Target 2.4 of SDG 2 aims to ensure sustainable food production systems, including maintaining genetic diversity and the resilience of plants and animals. This indirectly addresses the need to prevent soil pollution, as polluted soil can lead to contaminated crops and impact food security.</li>
+
+							 <li><u>SDG 3 - Good Health and Well-being:</u> Target 3.9 focuses on reducing the number of deaths and illnesses from hazardous chemicals and air, water, and soil pollution and contamination. This target underscores the importance of preventing soil pollution for human health.</li>
+							
+							 <li><u>SDG 6 - Clean Water and Sanitation:</u> Target 6.3 aims to improve water quality by reducing pollution, including contamination from soil pollution. Preventing soil pollution contributes to safer and cleaner water sources.</li></ul></p>
+					</div>
+								
+					<div class="proswater">
+						<h3></h3>
+						<p> <ul><li><u>SDG 12 - Responsible Consumption and Production:</u> Target 12.4 promotes sustainable chemical management and the reduction of the release of hazardous chemicals into the environment. This includes efforts to limit soil pollution through responsible chemical use and disposal.</li>
+
+							<li><u>SDG 15 - Life on Land:</u> Target 15.3 focuses on combating desertification, restoring degraded land, and promoting sustainable land use. These actions directly relate to preventing and remediating soil pollution.</li>
+						</ul></p>
+					</div>
+								
+					<div class="proswater">
+						<h3>Actions taken to address soil pollution within the framework of the SDGs may include:
+						</h3>
+						<p><ul>
+							<li>Implementing regulations and policies that reduce the use of hazardous chemicals in agriculture and industry.</li>
+<li>Promoting responsible land management practices, such as afforestation, reforestation, and erosion control.</li>
+<li> Encouraging the remediation and cleanup of contaminated sites.</li>
+<li> Educating and raising awareness among communities, industries, and policymakers about the importance of soil protection.</li>
+						</ul></p>
+					</div>		
+				</div>
+		</div>
+</section>
+
+										<!--LAND PAGE-->
+<section class="fourth">
+	<div class="land">
+		<a name = "land" class="land"><h1>Condition Of Land in Punjab</h1></a>
+		<p class="desc">Punjab, a fertile region in India known as the "Granary of India," has been facing growing concerns related to polluted soil in recent years. The primary sources of soil pollution in Punjab are linked to intensive agricultural practices, industrial activities, and inadequate waste management.</p>
+			<div class="totalland">
+				<div class="prosland">
+					<h3>Phagwara</h3>
+					<img src="phagwara.jpg" height="300px" width="300px">
+					<p>In Phagwara, Punjab, soil pollution is evident in several fields due to excessive pesticide and chemical fertilizer use. High levels of toxic residues, like pesticides and heavy metals, have led to reduced crop yields, degraded soil health, and increased health risks for farmers and residents. This pollution stems from intensive agricultural practices and inadequate waste management, necessitating urgent attention and sustainable farming solutions to restore the soil's fertility and protect the environment.</p>
+				</div>
+
+				<div class="prosland">
+					<h3>Jalandhar</h3>
+					<img src="jalandhar.jpg" height="300px" width="300px">
+					<p>In Jalandhar, a city in the Indian state of Punjab, polluted soil fields have become a pressing concern. Rampant agricultural practices, including the excessive use of chemical fertilizers and pesticides, have led to soil contamination. High levels of heavy metals, pesticide residues, and other pollutants are adversely affecting soil quality and agricultural productivity. This pollution can have detrimental effects on both the environment and public health, as crops grown in contaminated soil may carry harmful substances. Sustainable agricultural practices and soil remediation efforts are essential to address this issue and ensure the long-term viability of farming in Jalandhar.</p>
+				</div>
+
+				<div class="prosland">
+					<h3>Ludhiana</h3>
+					<img src="ludhiana.jpg" height="300px" width="300px">
+					<p>Ludhiana, a major industrial city in India's Punjab state, is grappling with severe pollution and environmental challenges, transforming it into a polluted dumping ground. Rampant industrialization, unchecked waste disposal, and inadequate environmental regulations have led to widespread pollution of air, water, and soil. The city's water bodies, including the Buddha Nullah, are heavily contaminated with industrial effluents and untreated sewage. Air quality is consistently poor, posing serious health risks to residents. The uncontrolled dumping of solid waste exacerbates the problem, creating unsightly and hazardous trash heaps throughout the city. Urgent measures are required to mitigate these environmental issues and protect the well-being of Ludhiana's population.
+					</p>
+				</div>
+			
+			</div>
+	</div>
+</section>
+
+<!--FOOTER-->
+<section class="footer">
+	<a name="aboutus" class="aboutus"></a>
+		<h4>About Us</h4>
+		<p>We are students of Lovely Professional University, <br> trying to spread awareness in the world about the rising soil pollution.</p>
+		<br>
+		<p>Contact Us ↓</p>
+		<p>prajotnikam7777@gmail.com</p>
+                <p>shashanksingh9048@gmail.com</p>
+				<p>goutampareek18@gmail.com</p>
+                <br>
+                <p>Made by Prajot Nikam , Shashank Singh & Goutam Pareek</p>
+</section>
+</body>
+</html>
